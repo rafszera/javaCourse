@@ -1,6 +1,4 @@
-package Conditions;
-
-import java.util.Scanner;
+package javaBasics.Conditions;
 
 public class ifAndElse {
     static void main(String[] args) {

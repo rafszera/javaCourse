@@ -1,4 +1,4 @@
-package Tasks;
+package javaBasics.Tasks;
 
 public class firstTask {
     static void main(String[] args) {

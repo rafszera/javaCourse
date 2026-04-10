@@ -1,4 +1,4 @@
-package Conditions;
+package javaBasics.Conditions;
 
 public class ternaryOperator {
     static void main(String[] args) {
