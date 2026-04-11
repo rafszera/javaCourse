@@ -8,4 +8,31 @@ public class Ninja {
 
 
 
+    /*
+     * void method don`t retorn value
+     * */
+    public void sharinganActive() {
+        System.out.println("SHARINGAN");
+    }
+
+    /*
+     * string method must return a string
+     * */
+    public String myname() {
+        return "Hi, im " + name;
+    }
+
+
+
+    /*
+    * int method must return a int
+    * */
+  public int ageToHokage(int hokageMinimumAge){
+        return hokageMinimumAge - age;
+  }
+
+
 }
+
+
+
