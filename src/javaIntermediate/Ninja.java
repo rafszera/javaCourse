@@ -9,13 +9,9 @@ public class Ninja {
 
 
     /*
-     * void method don`t retorn value
+     * void method don`t return value
      * */
-    public void sharinganActive() {
-        System.out.println("SHARINGAN");
-    }
-
-    /*
+        /*
      * string method must return a string
      * */
     public String myname() {

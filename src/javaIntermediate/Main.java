@@ -4,30 +4,53 @@ import java.util.Scanner;
 
 public class Main {
     static void main(String[] args) {
-        Ninja ninja = new Ninja();
-        ninja.myname();
 
-        // Create ninja Sasuke =
-        Ninja Sasuke = new Ninja();
+
+        // Object 1
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.name = "Naruto Uzumaki";
+        Naruto.village = "Konoha";
+        Naruto.age = 17;
+        Naruto.senninMode();
+
+        // Object 2
+        Uchiha Sasuke = new Uchiha();
         Sasuke.name = "Sasuke Uchiha";
         Sasuke.village = "Konoha";
         Sasuke.age = 22;
         Sasuke.sharinganActive();
-        String callingNameSasuke = Sasuke.myname();
-        System.out.println(callingNameSasuke);
 
-        int sasukeToHokage = Sasuke.ageToHokage(40);
-        System.out.println(Sasuke.name + " can be Hokage in " + sasukeToHokage + " years.");
+        // Object 3
+         Ninja Sakura = new Ninja();
+         Sakura.name = "Sakura Haruno";
+         Sakura.village = "Konoha";
+         Sakura.age = 17;
+
+         // Object 4
+        Ninja Kakashi = new Ninja();
+        Kakashi.name = "Kakashi Hatake";
+        Kakashi.village = "Konoha";
+        Kakashi.age = 40;
 
 
 
-        // Create ninja Naruto
-        Ninja Naruto = new Ninja();
 
-        Naruto.name = "Naruto Uzumaki";
-        Naruto.village = "Konoha";
-        Naruto.age = 17;
 
+
+
+
+
+
+
+
+
+
+//        Ninja ninja = new Ninja();
+//        ninja.myname();
+//        String callingNameSasuke = Sasuke.myname();
+//        System.out.println(callingNameSasuke);
+//        int sasukeToHokage = Sasuke.ageToHokage(40);
+//        System.out.println(Sasuke.name + " can be Hokage in " + sasukeToHokage + " years.");
 
 
 
