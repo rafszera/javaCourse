@@ -1,6 +1,4 @@
-package javaIntermediate;
-
-import java.util.Scanner;
+package javaIntermediate.Inheritance;
 
 public class Main {
     static void main(String[] args) {
@@ -17,7 +15,7 @@ public class Main {
         Uchiha Sasuke = new Uchiha();
         Sasuke.name = "Sasuke Uchiha";
         Sasuke.village = "Konoha";
-        Sasuke.age = 22;
+        Sasuke.age = 18;
         Sasuke.sharinganActive();
 
         // Object 3
@@ -31,6 +29,19 @@ public class Main {
         Kakashi.name = "Kakashi Hatake";
         Kakashi.village = "Konoha";
         Kakashi.age = 40;
+
+        // Object 5
+        Hyuga Hinata = new Hyuga();
+        Hinata.name = "Hinata Hyuga";
+        Hinata.village = "Konoha";
+        Hinata.age = 17;
+        Hinata.activeByakugan();
+
+
+
+
+
+
 
 
 

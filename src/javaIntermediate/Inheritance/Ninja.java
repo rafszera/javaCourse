@@ -1,4 +1,4 @@
-package javaIntermediate;
+package javaIntermediate.Inheritance;
 
 public class Ninja {
 
