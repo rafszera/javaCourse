@@ -2,6 +2,16 @@ package javaIntermediate.abstractClassVsInterface;
 
 public class Uchiha extends Ninja {
 
+
+    public Uchiha(String name, int age) {
+        super(name, age);
+    }
+
+    public Uchiha(){
+        super();
+    }
+
+
     @Override
     public void ninjaName(){
         System.out.println("My name is: " + name);
@@ -12,4 +22,8 @@ public class Uchiha extends Ninja {
         System.out.println("Throwing my FIRE Kunai");
     }
 
+    public void village() {
+        fromVillage = "Konohagakure";
+        System.out.println("I'm a ninja from " + fromVillage);
+    }
 }

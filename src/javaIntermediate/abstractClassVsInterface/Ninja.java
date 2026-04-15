@@ -1,23 +1,35 @@
 package javaIntermediate.abstractClassVsInterface;
 
-public abstract class Ninja {
+public abstract class Ninja implements NinjaInterface, Konoha {
     String name;
     int age;
-    String village;
+    String fromVillage;
 
 
+    // General method can have a body { }
 
-    public void kunaiThrow(){
-        System.out.println("Throwing my a Kunai");
+    @Override
+    public void kunaiThrow() {
+        System.out.println("Throwing my Kunai");
     }
+    // Every abstract method must be implemented by every class
+    // Abstract method doesn't have a body { }
 
+    @Override
+    public void shurikenThrow(){
+        System.out.println("Throwing my Shuriken");
+
+    }
     public abstract void ninjaName();
 
-    public Ninja(String name, int age, String village) {
+    @Override
+    public abstract void village();
+
+
+    public Ninja(String name, int age) {
         this.name = name;
         this.age = age;
-        this.village = village;
-    }
+        }
 
     public Ninja() {
     }

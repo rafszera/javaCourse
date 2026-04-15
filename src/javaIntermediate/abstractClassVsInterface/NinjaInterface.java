@@ -2,6 +2,7 @@ package javaIntermediate.abstractClassVsInterface;
 
 public interface NinjaInterface {
 
-    public void kunaiToss();
+    void shurikenThrow();
+    void kunaiThrow();
 
 }
