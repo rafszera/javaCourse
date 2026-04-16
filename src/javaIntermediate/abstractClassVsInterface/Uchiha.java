@@ -11,6 +11,10 @@ public class Uchiha extends Ninja {
         super();
     }
 
+    @Override
+    public void sharinganActive(){
+        System.out.println("My bloodline does not lie. The Sharingan sees all");
+    }
 
     @Override
     public void ninjaName(){

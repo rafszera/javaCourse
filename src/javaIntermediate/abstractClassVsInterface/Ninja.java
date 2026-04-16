@@ -1,6 +1,6 @@
 package javaIntermediate.abstractClassVsInterface;
 
-public abstract class Ninja implements NinjaInterface, Konoha {
+public abstract class Ninja implements NinjaInterface, Konoha, Sharingan {
     String name;
     int age;
     String fromVillage;
@@ -22,8 +22,13 @@ public abstract class Ninja implements NinjaInterface, Konoha {
     }
     public abstract void ninjaName();
 
-    @Override
+
     public abstract void village();
+
+
+    public void sharinganActive(){
+        System.out.println("The Sharingan awakens");
+    }
 
 
     public Ninja(String name, int age) {
