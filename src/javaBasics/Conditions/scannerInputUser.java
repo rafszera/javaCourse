@@ -3,7 +3,7 @@ package javaBasics.Conditions;
 import java.util.Scanner;
 
 public class scannerInputUser {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         /*
         * The user will create a character using Scanner inputs
         * */

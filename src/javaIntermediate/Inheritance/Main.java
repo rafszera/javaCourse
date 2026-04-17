@@ -1,41 +1,41 @@
 package javaIntermediate.Inheritance;
 
 public class Main {
-    static void main(String[] args) {
+   public static void main(String[] args) {
 
 
         // Object 1
-        Uzumaki Naruto = new Uzumaki();
-        Naruto.name = "Naruto Uzumaki";
-        Naruto.village = "Konoha";
-        Naruto.age = 17;
-        Naruto.senninMode();
+        Uzumaki naruto = new Uzumaki();
+        naruto.name = "Naruto Uzumaki";
+        naruto.village = "Konoha";
+        naruto.age = 17;
+        naruto.senninMode();
 
         // Object 2
-        Uchiha Sasuke = new Uchiha();
-        Sasuke.name = "Sasuke Uchiha";
-        Sasuke.village = "Konoha";
-        Sasuke.age = 18;
-        Sasuke.sharinganActive();
+        Uchiha sasuke = new Uchiha();
+        sasuke.name = "Sasuke Uchiha";
+        sasuke.village = "Konoha";
+        sasuke.age = 18;
+        sasuke.sharinganActive();
 
         // Object 3
-         Ninja Sakura = new Ninja();
-         Sakura.name = "Sakura Haruno";
-         Sakura.village = "Konoha";
-         Sakura.age = 17;
+         Ninja sakura = new Ninja();
+        sakura.name = "Sakura Haruno";
+        sakura.village = "Konoha";
+        sakura.age = 17;
 
          // Object 4
-        Ninja Kakashi = new Ninja();
-        Kakashi.name = "Kakashi Hatake";
-        Kakashi.village = "Konoha";
-        Kakashi.age = 40;
+        Ninja kakashi = new Ninja();
+        kakashi.name = "Kakashi Hatake";
+        kakashi.village = "Konoha";
+        kakashi.age = 40;
 
         // Object 5
-        Hyuga Hinata = new Hyuga();
-        Hinata.name = "Hinata Hyuga";
-        Hinata.village = "Konoha";
-        Hinata.age = 17;
-        Hinata.activeByakugan();
+        Hyuga hinata = new Hyuga();
+        hinata.name = "Hinata Hyuga";
+        hinata.village = "Konoha";
+        hinata.age = 17;
+        hinata.activeByakugan();
 
 
 

@@ -1,7 +1,7 @@
 package javaBasics.Conditions;
 
 public class loops {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
 
 

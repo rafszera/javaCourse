@@ -3,7 +3,7 @@ package javaBasics.Conditions;
 import java.util.Scanner;
 
 public class switchCases {
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner scannerBox = new Scanner(System.in);
 

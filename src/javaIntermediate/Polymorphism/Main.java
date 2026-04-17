@@ -1,7 +1,7 @@
 package javaIntermediate.Polymorphism;
 
 public class Main {
-    static void main() {
+    public static void main() {
         Uzumaki naruto = new Uzumaki();
         Uchiha sasuke = new Uchiha();
 

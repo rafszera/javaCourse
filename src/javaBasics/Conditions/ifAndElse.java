@@ -1,7 +1,7 @@
 package javaBasics.Conditions;
 
 public class ifAndElse {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         String name = "Naruto";
         String rank;
         int age = 18;
