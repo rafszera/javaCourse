@@ -1,8 +1,8 @@
 package javaIntermediate.abstractClassVsInterface;
 
-public class Uchiha extends Ninja {
+public class Uchiha extends Ninja implements Sharingan {
 
-
+    String clanName = "Uchiha";
     public Uchiha(String name, int age) {
         super(name, age);
     }
@@ -18,7 +18,7 @@ public class Uchiha extends Ninja {
 
     @Override
     public void ninjaName(){
-        System.out.println("My name is: " + name);
+        System.out.println("I'm " + name);
     }
 
     @Override
@@ -26,8 +26,10 @@ public class Uchiha extends Ninja {
         System.out.println("Throwing my FIRE Kunai");
     }
 
-    public void village() {
-        fromVillage = "Konohagakure";
-        System.out.println("I'm a ninja from " + fromVillage);
+    @Override
+    public void village(){
+        fromVillage = " from Konohagakure!";
+        System.out.println("I'm a " + clanName + fromVillage);
     }
+
 }

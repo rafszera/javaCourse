@@ -1,9 +1,15 @@
 package javaIntermediate.abstractClassVsInterface;
 
 public class Uzumaki extends Ninja {
+    String clanName = "Uzumaki";
+
 
     public Uzumaki(String name, int age) {
         super(name, age);
+    }
+
+    public Uzumaki(String name, int age, int completedMissions, Ranks rank) {
+        super(name, age, completedMissions, rank);
     }
 
     public Uzumaki() {
@@ -11,20 +17,21 @@ public class Uzumaki extends Ninja {
 
     @Override
     public void village() {
-        fromVillage = "Konohagakure";
-        System.out.println("I'm a ninja from " + fromVillage);
-
+        fromVillage = " a shinobi of Konohagakure";
+        System.out.println("I am an " + clanName + fromVillage);
     }
 
+    @Override
     public void ninjaName(){
-        System.out.println("My name is: " + name);
+        System.out.println("I'm " + name);
     }
 
-
+    @Override
     public void kunaiThrow(){
         System.out.println("Throwing my AIR Kunai");
     }
 
+    @Override
     public void shurikenThrow(){
         System.out.println("Throwing my Air Shuriken");
     }

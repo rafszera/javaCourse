@@ -1,6 +1,6 @@
 package javaIntermediate.Polymorphism;
 
-public class Uchiha extends Ninja{
+ class Uchiha extends Ninja{
     void activateSharingan(){
         System.out.println(name + "... SHARINGAN !!!!");
     }

@@ -1,7 +1,7 @@
 package javaIntermediate.Construtor;
 
 public class Main {
-   public static void main(String[] args) {
+    static void main(String[] args) {
         Hokages hashirama = new Hokages();
         hashirama.name = "Hashirama Senju";
 

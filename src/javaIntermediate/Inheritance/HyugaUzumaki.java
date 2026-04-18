@@ -1,5 +1,5 @@
 package javaIntermediate.Inheritance;
 
-public interface HyugaUzumaki {
+interface HyugaUzumaki {
     void activateKarma();
 }

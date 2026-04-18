@@ -1,7 +1,7 @@
 package javaIntermediate.abstractClassVsInterface;
 
-public interface Konoha {
+public interface Anbu {
 
-   void village();
+    void ninjaAnbu();
 
 }

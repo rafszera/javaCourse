@@ -1,6 +1,6 @@
 package javaIntermediate.Polymorphism;
 
-public class Ninja {
+class Ninja {
     String name;
     int age;
     String rank;

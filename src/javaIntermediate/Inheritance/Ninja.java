@@ -1,6 +1,6 @@
 package javaIntermediate.Inheritance;
 
-public class Ninja {
+class Ninja {
 
     String name;
     String village;

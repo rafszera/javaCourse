@@ -1,6 +1,6 @@
 package javaIntermediate.Construtor;
 
-public class Hokages {
+class Hokages {
 
     String name;
     int age;
@@ -19,7 +19,7 @@ public class Hokages {
 
     }
 
-    public Hokages() {
+     public Hokages() {
 
     }
 }

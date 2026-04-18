@@ -1,6 +1,6 @@
 package javaIntermediate.Polymorphism;
 
-public class Uzumaki extends Ninja{
+class Uzumaki extends Ninja{
 
     void activateSenninMode(){
         System.out.println(name + "... SENNIN MODE!!!");
