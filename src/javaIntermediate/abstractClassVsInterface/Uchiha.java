@@ -21,15 +21,13 @@ public class Uchiha extends Ninja implements Sharingan {
         System.out.println("I'm " + name);
     }
 
-    @Override
-    public void kunaiThrow(){
-        System.out.println("Throwing my FIRE Kunai");
-    }
 
     @Override
     public void village(){
         fromVillage = " from Konohagakure!";
         System.out.println("I'm a " + clanName + fromVillage);
     }
+
+
 
 }

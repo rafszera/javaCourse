@@ -27,6 +27,7 @@ public class Hatake extends Ninja implements Sharingan, Anbu {
         System.out.println("I'm a " + clanName + fromVillage);
     }
 
+    @Override
     public void ninjaAnbu(){
         System.out.println(name+ " is a member of the ANBU elite");
     }

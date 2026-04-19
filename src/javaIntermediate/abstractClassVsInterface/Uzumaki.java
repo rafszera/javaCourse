@@ -26,12 +26,7 @@ public class Uzumaki extends Ninja {
         System.out.println("I'm " + name);
     }
 
-    @Override
-    public void kunaiThrow(){
-        System.out.println("Throwing my AIR Kunai");
-    }
-
-    @Override
+      @Override
     public void shurikenThrow(){
         System.out.println("Throwing my Air Shuriken");
     }
