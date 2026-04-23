@@ -2,10 +2,12 @@ package javaIntermediate.abstractClassVsInterface;
 
 public class Uzumaki extends Ninja {
     String clanName = "Uzumaki";
+    Bijuus bijuu;
 
 
-    public Uzumaki(String name, int age) {
-        super(name, age);
+    public Uzumaki(String name, int age, int completedMissions, Ranks rank, Bijuus bijuu) {
+        super(name, age, completedMissions, rank);
+        this.bijuu = bijuu;
     }
 
     public Uzumaki(String name, int age, int completedMissions, Ranks rank) {
@@ -30,5 +32,6 @@ public class Uzumaki extends Ninja {
     public void shurikenThrow(){
         System.out.println("Throwing my Air Shuriken");
     }
+
 
 }

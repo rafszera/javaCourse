@@ -1,6 +1,6 @@
 package javaIntermediate.abstractClassVsInterface;
 
-public abstract class Ninja implements NinjaInterface, Konoha, Jinchuuriki {
+abstract class Ninja implements NinjaInterface {
     String name;
     int age;
     String fromVillage;
@@ -70,10 +70,25 @@ public abstract class Ninja implements NinjaInterface, Konoha, Jinchuuriki {
 
     }
 
-    public void jinchuuriki(){
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 
 
 
-}
+
+
+

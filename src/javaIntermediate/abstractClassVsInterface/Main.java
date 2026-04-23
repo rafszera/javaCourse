@@ -4,13 +4,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("--------------------------------------");
-        Uzumaki naruto = new Uzumaki();
-        naruto.name = "Naruto Uzumaki";
+        Uzumaki naruto = new Uzumaki("Naruto Uzumaki",26,40,Ranks.KAGE,Bijuus.KURAMA);
         naruto.ninjaName();
-        naruto.village();
         naruto.kunaiThrow(Element.WIND);
-        naruto.shurikenThrow();
-        System.out.println(naruto);
+        naruto.village();
+        System.out.println(naruto.bijuu);
+
+
         System.out.println("--------------------------------------");
         Uchiha sasuke = new Uchiha();
         sasuke.name = "Sasuke Uchiha";
