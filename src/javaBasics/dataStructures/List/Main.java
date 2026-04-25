@@ -1,4 +1,4 @@
-package javaIntermediate.Lists;
+package javaBasics.dataStructures.List;
 
 import java.util.ArrayList;
 import java.util.List;

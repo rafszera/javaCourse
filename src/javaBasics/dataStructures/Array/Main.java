@@ -1,8 +1,8 @@
-package javaBasics.dataStructures;
+package javaBasics.dataStructures.Array;
 
 import java.util.Scanner;
 
-public class arrays {
+public class Main {
    public static void main(String[] args) {
         String[][] teamAndNinjas = new String[4][5];
 
