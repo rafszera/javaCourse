@@ -20,6 +20,11 @@ import java.util.List;
         ninjaList.add("Hinata Hyuga");
         ninjaList.add("Boruto Uzumaki");
         System.out.println("Naruto's Family: " + ninjaList);
+        System.out.println();
+        ninjaList.add(1, "Nagato");
+        System.out.println(ninjaList);
+
+
 
 
 

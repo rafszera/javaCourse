@@ -1,4 +1,6 @@
-package javaIntermediate.Tasks;
+package javaIntermediate.Tasks.taskOne;
+
+
 
 public class Main {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javaIntermediate.Tasks;
+package javaIntermediate.Tasks.taskOne;
 
 class Uchiha extends Ninja {
     public Uchiha(String name, int age) {

@@ -1,6 +1,6 @@
-package javaIntermediate.Tasks;
+package javaIntermediate.Tasks.taskOne;
 
-public abstract class Ninja implements NinjaInterface{
+public abstract class Ninja implements NinjaInterface {
 
     String name;
     int age;

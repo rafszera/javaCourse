@@ -1,5 +1,6 @@
 package javaBasics.dataStructures.Array;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -8,6 +9,7 @@ public class Main {
 
 
        Scanner scanner = new Scanner(System.in);
+
 
         teamAndNinjas[0][0] = "Team 7";
         teamAndNinjas[0][1] = "Kakashi";
@@ -32,6 +34,16 @@ public class Main {
         teamAndNinjas[3][2] = "Shikamaru";
         teamAndNinjas[3][3] = "Chouji ";
         teamAndNinjas[3][4] = "Ino";
+
+
+
+       String printArray = Arrays.deepToString(teamAndNinjas);
+       System.out.println(printArray);
+       System.out.println(teamAndNinjas[3][4]);
+       System.out.println();
+       teamAndNinjas[3][4] = "Sai";
+       System.out.println(teamAndNinjas[3][4]);
+
 
        System.out.println("===== Teams of Konoha =====");
 
@@ -67,7 +79,8 @@ public class Main {
 
 
 
-        // System.out.println(Arrays.deepToString(teamAndNinjas));
+
+
 
 
         scanner.close();
