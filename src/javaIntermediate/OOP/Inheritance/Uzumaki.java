@@ -1,4 +1,4 @@
-package javaIntermediate.Inheritance;
+package javaIntermediate.OOP.Inheritance;
 
 class Uzumaki extends Ninja {
     public void senninMode() {

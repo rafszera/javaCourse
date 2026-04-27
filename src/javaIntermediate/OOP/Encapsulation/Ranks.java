@@ -1,4 +1,4 @@
-package javaIntermediate.Encapsulation;
+package javaIntermediate.OOP.Encapsulation;
 
 public enum Ranks {
     S("Elite", 15),

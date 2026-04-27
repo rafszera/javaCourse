@@ -1,4 +1,4 @@
-package javaIntermediate.Inheritance;
+package javaIntermediate.OOP.Inheritance;
 
 class Hyuga extends Ninja {
     public void activeByakugan(){

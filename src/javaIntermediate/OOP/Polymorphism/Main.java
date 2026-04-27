@@ -1,4 +1,4 @@
-package javaIntermediate.Polymorphism;
+package javaIntermediate.OOP.Polymorphism;
 
 public class Main {
     public static void main() {

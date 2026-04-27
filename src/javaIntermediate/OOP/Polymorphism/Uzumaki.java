@@ -1,4 +1,4 @@
-package javaIntermediate.Polymorphism;
+package javaIntermediate.OOP.Polymorphism;
 
 class Uzumaki extends Ninja{
 

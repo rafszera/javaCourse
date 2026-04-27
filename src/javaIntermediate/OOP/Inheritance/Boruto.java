@@ -1,4 +1,4 @@
-package javaIntermediate.Inheritance;
+package javaIntermediate.OOP.Inheritance;
 
 class Boruto extends Uzumaki implements HyugaUzumaki {
     @Override
