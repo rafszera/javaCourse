@@ -1,11 +1,15 @@
 package javaBasics.dataStructures.List;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
- class Main {
+class Main {
     static void main(String[] args) {
         List<String> ninjaList = new ArrayList<>();
+
+
         ninjaList.add("Naruto Uzumaki");
         ninjaList.add("Minato Namikaze");
         ninjaList.add("Kushina Uzumaki");
@@ -22,7 +26,13 @@ import java.util.List;
         System.out.println("Naruto's Family: " + ninjaList);
         System.out.println();
         ninjaList.add(1, "Nagato");
-        System.out.println(ninjaList);
+        System.out.println("Index 3 is: " +ninjaList.get(3));
+        System.out.println("Hinata index is: " + ninjaList.indexOf("Hinata Hyuga"));
+        for(Object list : ninjaList){
+            System.out.println(list);
+        }
+
+
 
 
 

@@ -44,6 +44,8 @@ public class Main {
 
         // Search a ninja by its Index
 
+        System.out.println("Ninja in index 4: " + linkedNinjas.get(4));
+
 
 
 
